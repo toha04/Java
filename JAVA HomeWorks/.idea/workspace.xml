@@ -2,33 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="65608b1c-82da-4dd5-9f64-c75f256603b6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/Java.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/epam/hw8/CompareByName.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/epam/hw8/CompareByPrice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/epam/hw8/CompareByPublishingHouse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/epam/hw8/Exceptions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/epam/hw8/Menu.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JAVA HomeWorks/com/epam/hw6/Book.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JAVA HomeWorks/com/epam/hw6/Book.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JAVA HomeWorks/com/epam/hw6/Books.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JAVA HomeWorks/com/epam/hw6/Books.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JAVA HomeWorks/com/epam/hw6/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JAVA HomeWorks/com/epam/hw6/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JAVA HomeWorks/com/epam/hw8/Book.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JAVA HomeWorks/com/epam/hw8/Book.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JAVA HomeWorks/com/epam/hw8/Books.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JAVA HomeWorks/com/epam/hw8/Books.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JAVA HomeWorks/com/epam/hw8/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JAVA HomeWorks/com/epam/hw8/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JAVA HomeWorks/com/epam/hw8/Validator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JAVA HomeWorks/com/epam/hw8/Validator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/epam/hw6/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/epam/hw6/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/epam/hw6/Books.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/epam/hw6/Books.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/epam/hw6/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/epam/hw6/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/epam/hw8/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/epam/hw8/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/epam/hw8/Books.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/epam/hw8/Books.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/epam/hw8/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/epam/hw8/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/epam/hw8/Validator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/epam/hw8/Validator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -162,42 +136,46 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="322" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1582627343039" />
-    <state width="1398" height="218" key="GridCell.Tab.0.bottom" timestamp="1582809549168">
+    <state x="561" y="350" key="Github.ShareDialog" timestamp="1582812117364">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="218" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1582809549168" />
+    <state x="561" y="350" key="Github.ShareDialog/0.0.1440.900@0.0.1440.900" timestamp="1582812117364" />
+    <state width="1398" height="303" key="GridCell.Tab.0.bottom" timestamp="1582812142468">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="303" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1582812142468" />
     <state width="1398" height="344" key="GridCell.Tab.0.bottom/0.23.1440.802@0.23.1440.802" timestamp="1582270589290" />
-    <state width="1398" height="218" key="GridCell.Tab.0.center" timestamp="1582809549166">
+    <state width="1398" height="303" key="GridCell.Tab.0.center" timestamp="1582812142468">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="218" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1582809549166" />
+    <state width="1398" height="303" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1582812142468" />
     <state width="1398" height="344" key="GridCell.Tab.0.center/0.23.1440.802@0.23.1440.802" timestamp="1582270589289" />
-    <state width="1398" height="218" key="GridCell.Tab.0.left" timestamp="1582809549165">
+    <state width="1398" height="303" key="GridCell.Tab.0.left" timestamp="1582812142467">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="218" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1582809549165" />
+    <state width="1398" height="303" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1582812142467" />
     <state width="1398" height="344" key="GridCell.Tab.0.left/0.23.1440.802@0.23.1440.802" timestamp="1582270589289" />
-    <state width="1398" height="218" key="GridCell.Tab.0.right" timestamp="1582809549167">
+    <state width="1398" height="303" key="GridCell.Tab.0.right" timestamp="1582812142468">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="218" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1582809549167" />
+    <state width="1398" height="303" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1582812142468" />
     <state width="1398" height="344" key="GridCell.Tab.0.right/0.23.1440.802@0.23.1440.802" timestamp="1582270589290" />
-    <state width="1398" height="303" key="GridCell.Tab.1.bottom" timestamp="1582633577330">
+    <state width="1398" height="303" key="GridCell.Tab.1.bottom" timestamp="1582812142470">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="303" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1582633577330" />
-    <state width="1398" height="303" key="GridCell.Tab.1.center" timestamp="1582633577328">
+    <state width="1398" height="303" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1582812142470" />
+    <state width="1398" height="303" key="GridCell.Tab.1.center" timestamp="1582812142469">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="303" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1582633577328" />
-    <state width="1398" height="303" key="GridCell.Tab.1.left" timestamp="1582633577328">
+    <state width="1398" height="303" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1582812142469" />
+    <state width="1398" height="303" key="GridCell.Tab.1.left" timestamp="1582812142469">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="303" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1582633577328" />
-    <state width="1398" height="303" key="GridCell.Tab.1.right" timestamp="1582633577329">
+    <state width="1398" height="303" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1582812142469" />
+    <state width="1398" height="303" key="GridCell.Tab.1.right" timestamp="1582812142470">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="303" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1582633577329" />
+    <state width="1398" height="303" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1582812142470" />
     <state x="221" y="63" key="SettingsEditor" timestamp="1582270546769">
       <screen x="0" y="23" width="1440" height="802" />
     </state>
@@ -206,9 +184,9 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="600" height="424" key="javadoc.popup/0.0.1440.900@0.0.1440.900" timestamp="1582044930968" />
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1582806808552">
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1582812105192">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1582806808552" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1582812105192" />
   </component>
 </project>
