@@ -1,8 +1,8 @@
 package com.epam.hw8;
 
-import java.io.Serializable;
+        import java.io.Serializable;
 
-public class Book implements Serializable, Cloneable{
+public class Book implements  Cloneable{
     private int id;
     private String nameOfBook;
     private String author;
@@ -29,7 +29,7 @@ public class Book implements Serializable, Cloneable{
     }
     @Override
     public String toString() {
-        return "Book1 - " +
+        String result = "Book1 - " +
                 "id = " + id +
                 ", nameOfBook - '" + nameOfBook + '\'' +
                 ", author - '" + author + '\'' +
@@ -38,7 +38,10 @@ public class Book implements Serializable, Cloneable{
                 ", numberOfPages - " + numberOfPages +
                 ", price - " + price +
                 '}' ;
+        return result;
     }
+
+
 
     public int getId() {
         return id;
@@ -95,7 +98,7 @@ public class Book implements Serializable, Cloneable{
     public void setPrice(double price) {
         this.price = price;
     }
-  @Override
+    @Override
     public Object clone () throws CloneNotSupportedException {
         Book bookClone = (Book)super.clone();
         return bookClone;

@@ -8,7 +8,7 @@ public class Validator {
                 counter++;
             }
         }
-        System.out.println("Storage is empty");
+
         return counter == storage.length;
 
     }

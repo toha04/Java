@@ -4,18 +4,15 @@ import java.util.Scanner;
 import java.util.InputMismatchException;
 
 
-public class Menu implements Cloneable{
+public class Menu {
     Books books;
-    public Books getCloneOfABook() throws CloneNotSupportedException {
-        Books clone = (Books)clone();
-        return clone;
-    }
-    public void menu() {
 
+    public Menu(Books books) {
+        this.books = books;
     }
     public void menuMain() throws CloneNotSupportedException {
         Scanner sc = new Scanner(System.in);
-
+        Books clonedBooks = books.clone();
         System.out.println("Menu list: ");
 
         System.out.println("1. View all books: ");
@@ -41,24 +38,24 @@ public class Menu implements Cloneable{
             break;
             case 2:
                 try {
-                    getCloneOfABook().getAuthorsNameCompared();
-                    getCloneOfABook().viewAllElements();
+                    clonedBooks.getAuthorsNameCompared();
+                    clonedBooks.viewAllElements();
                 } catch (EmptyArrayException e) {
                     System.out.println(e.getMessage());
                 }
                 break;
             case 3 :
                 try {
-                    getCloneOfABook().getPublishersNameCompared();
-                    getCloneOfABook().viewAllElements();
+                    clonedBooks.getPublishersNameCompared();
+                    clonedBooks.viewAllElements();
                 } catch (EmptyArrayException e) {
                     System.out.println(e.getMessage());
                 }
                 break;
             case 4:
                 try {
-                    getCloneOfABook().getPriceCompared();
-                    getCloneOfABook().viewAllElements();
+                    clonedBooks.getPriceCompared();
+                    clonedBooks.viewAllElements();
                 } catch(EmptyArrayException e) {
                     System.out.println(e.getMessage());
             }

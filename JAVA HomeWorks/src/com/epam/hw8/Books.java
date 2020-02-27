@@ -1,6 +1,6 @@
 package com.epam.hw8;
 import java.util.Arrays;
-public class Books {
+public class Books implements Cloneable {
     private Book[] storage;
     private int counter;
 
@@ -42,7 +42,7 @@ public class Books {
             if (elem == null) {
                 break;
             }
-            elem.toString();
+            System.out.println(elem.toString());
         }
     }
 

@@ -3,6 +3,15 @@
   <component name="ChangeListManager">
     <list default="true" id="65608b1c-82da-4dd5-9f64-c75f256603b6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JAVA HomeWorks/com/epam/hw8/Book.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JAVA HomeWorks/com/epam/hw8/Book.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JAVA HomeWorks/com/epam/hw8/Books.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JAVA HomeWorks/com/epam/hw8/Books.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JAVA HomeWorks/com/epam/hw8/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JAVA HomeWorks/com/epam/hw8/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JAVA HomeWorks/com/epam/hw8/Menu.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JAVA HomeWorks/com/epam/hw8/Menu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/epam/hw8/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/epam/hw8/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/epam/hw8/Books.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/epam/hw8/Books.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/epam/hw8/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/epam/hw8/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/epam/hw8/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/epam/hw8/Menu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/epam/hw8/Validator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/epam/hw8/Validator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +38,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com/epam/hw8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -101,7 +110,6 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (1)" />
       </list>
     </recent_temporary>
@@ -124,10 +132,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1582626076775" />
-    <state x="460" y="158" key="#com.intellij.ide.util.MemberChooser" timestamp="1582788176116">
+    <state x="460" y="158" key="#com.intellij.ide.util.MemberChooser" timestamp="1582819449597">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="460" y="158" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1582788176116" />
+    <state x="460" y="158" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1582819449597" />
     <state x="458" y="204" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1582727114539">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -140,42 +148,42 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="561" y="350" key="Github.ShareDialog/0.0.1440.900@0.0.1440.900" timestamp="1582812117364" />
-    <state width="1398" height="303" key="GridCell.Tab.0.bottom" timestamp="1582812142468">
+    <state width="1398" height="218" key="GridCell.Tab.0.bottom" timestamp="1582819936743">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="303" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1582812142468" />
+    <state width="1398" height="218" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1582819936743" />
     <state width="1398" height="344" key="GridCell.Tab.0.bottom/0.23.1440.802@0.23.1440.802" timestamp="1582270589290" />
-    <state width="1398" height="303" key="GridCell.Tab.0.center" timestamp="1582812142468">
+    <state width="1398" height="218" key="GridCell.Tab.0.center" timestamp="1582819936742">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="303" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1582812142468" />
+    <state width="1398" height="218" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1582819936742" />
     <state width="1398" height="344" key="GridCell.Tab.0.center/0.23.1440.802@0.23.1440.802" timestamp="1582270589289" />
-    <state width="1398" height="303" key="GridCell.Tab.0.left" timestamp="1582812142467">
+    <state width="1398" height="218" key="GridCell.Tab.0.left" timestamp="1582819936741">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="303" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1582812142467" />
+    <state width="1398" height="218" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1582819936741" />
     <state width="1398" height="344" key="GridCell.Tab.0.left/0.23.1440.802@0.23.1440.802" timestamp="1582270589289" />
-    <state width="1398" height="303" key="GridCell.Tab.0.right" timestamp="1582812142468">
+    <state width="1398" height="218" key="GridCell.Tab.0.right" timestamp="1582819936743">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="303" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1582812142468" />
+    <state width="1398" height="218" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1582819936743" />
     <state width="1398" height="344" key="GridCell.Tab.0.right/0.23.1440.802@0.23.1440.802" timestamp="1582270589290" />
-    <state width="1398" height="303" key="GridCell.Tab.1.bottom" timestamp="1582812142470">
+    <state width="1398" height="303" key="GridCell.Tab.1.bottom" timestamp="1582815151245">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="303" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1582812142470" />
-    <state width="1398" height="303" key="GridCell.Tab.1.center" timestamp="1582812142469">
+    <state width="1398" height="303" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1582815151245" />
+    <state width="1398" height="303" key="GridCell.Tab.1.center" timestamp="1582815151244">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="303" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1582812142469" />
-    <state width="1398" height="303" key="GridCell.Tab.1.left" timestamp="1582812142469">
+    <state width="1398" height="303" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1582815151244" />
+    <state width="1398" height="303" key="GridCell.Tab.1.left" timestamp="1582815151243">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="303" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1582812142469" />
-    <state width="1398" height="303" key="GridCell.Tab.1.right" timestamp="1582812142470">
+    <state width="1398" height="303" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1582815151243" />
+    <state width="1398" height="303" key="GridCell.Tab.1.right" timestamp="1582815151244">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="303" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1582812142470" />
+    <state width="1398" height="303" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1582815151244" />
     <state x="221" y="63" key="SettingsEditor" timestamp="1582270546769">
       <screen x="0" y="23" width="1440" height="802" />
     </state>

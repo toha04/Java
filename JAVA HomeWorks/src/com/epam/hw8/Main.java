@@ -14,7 +14,7 @@ public class Main {
         storage.addBook(new Book (4, "A Feast for Crows", "George R. R. Martin", 2005, 753, 753, "Harper Voyager "));
         storage.addBook(new Book (5, "A Dance with Dragons", "George R. R. Martin", 2011, 1056, 1056, "Harper Voyager "));
 
-        Menu menu = new Menu();
+        Menu menu = new Menu(storage);
 
         try {
 
