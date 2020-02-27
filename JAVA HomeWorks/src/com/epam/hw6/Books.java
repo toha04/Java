@@ -1,6 +1,5 @@
 package com.epam.hw6;
 
-import java.util.Scanner;
 
 public class Books {
     private Book[] storage;
@@ -11,23 +10,29 @@ public class Books {
         storage = new Book[counter];
     }
 
-    public int getCounter() {
-        return counter;
+    public void length(int length) {
+        if (length >= 0) {
+            storage = new Book[length];
+        } else {
+            System.out.println("Negative length of the array");
+        }
     }
-
 
     public Book[] getStorage() {
         return storage;
     }
 
-    public void addBook(Book book) {
-        for (int count = 0; count < storage.length; count++) {
-            if (storage[count] == null) {
-                storage[count] = book;
-                break;
+    public int getCounter() {
+        return counter;
+    }
 
+    public void addBook(Book book) {
+            for (int count = 0; count < storage.length; count++) {
+                if (storage[count] == null) {
+                    storage[count] = book;
+                    break;
+                }
             }
-        }
     }
 
     public void viewAllElements() {
@@ -39,36 +44,40 @@ public class Books {
         }
     }
 
-    public void changePriceUp(int percent) {
-        double newPercent = percent * 0.01;
-        for (int count = 0; count < storage.length; count++) {
-            if (storage[count] == null) {
-                break;
+    public void ChangePrice(char negativePositiveValue, double percent) {
+        for (Book elem : storage) {
+            if (elem != null) {
+                double oldPrice = elem.getPrice();
+                switch (negativePositiveValue) {
+                    case '-':
+                        elem.setPrice(oldPrice - oldPrice * percent / 100);
+                        break;
+                    case '+':
+                        elem.setPrice(oldPrice + oldPrice * percent / 100);
+                        break;
+                }
             }
-            double oldPrice = storage[count].getPrice();
-            double newPrice = oldPrice + oldPrice * newPercent;
-            storage[count].setPrice(newPrice);
         }
     }
 
     public Books findOutAuthor(String author) {
         Books authors = new Books(counter);
-
-        int AuthorsInMass = 0;
-        for (int count = 0; count < storage.length; count++) {
-            if (storage[count] == null) {
-                break;
+        for (Book elem : storage) {
+            if (elem != null && elem.getAuthor().equals(author)) {
+                authors.addBook(elem);
             }
-
-            String person = storage[count].getAuthor();
-            if (person.equals(author)) {
-                authors.storage[AuthorsInMass] = storage[count];
-                AuthorsInMass++;
-            } else {
-                continue;
-            }
-
         }
         return authors;
     }
+
+    public Books findOutYear(int num) {
+        Books year = new Books(counter);
+        for (Book elem : storage) {
+            if (elem != null && elem.getYearOfPublication() > num) {
+                year.addBook(elem);
+            }
+        }
+        return year;
+    }
 }
+

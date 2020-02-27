@@ -1,25 +1,51 @@
 package com.epam.hw8;
 
-public class Main {
-    public static void main(String[] args) {
+import java.util.Arrays;
+import java.util.Scanner;
 
-        Books books = new Books(5);
-        books.congestion(new Book(1, "The Grand Design", "Stephen Hawking", 2015, 406, 256, "Bantam"));
-        Book book = new Book(2, "SuperHuman Encyclopedia", "Robert Winston", 2014, 256  , 250, "Random House");
-        books.congestion(book);
-        books.congestion(new Book(3, "Think of Number. Can You Feel the Force? What Makes Me Me?", "Johnny Ball", 2008, 777, 250, "Reader's Digest"));
-        System.out.println("Enter percent to increase the price");
-        books.priceUp();
-        books.viewAllUnits();
-        System.out.println("Enter percent to decrease the price");
-        books.priceDown();
-        books.viewAllUnits();
-        System.out.println("Enter author's name: ");
-        books.findOutAuthor().viewAllUnits();
-        System.out.println("Enter year: ");
-        books.findOutYear().viewAllUnits();
+public class Main {
+    public static void main(String[] args) throws CloneNotSupportedException{
+        Scanner sc = new Scanner(System.in);
+
+        Books storage = new Books(9);
+        storage.addBook(new Book(1, "A Game of Thrones", "George R. R. Martin", 1996, 694, 694, "Harper Voyager "));
+        storage.addBook(new Book (2, "A Clash of Kings", "George R. R. Martin", 1999, 768, 768, "Harper Voyager "));
+        storage.addBook(new Book (3, "A Storm of Swords", "George R. R. Martin", 2000, 973, 973, "Harper Voyager "));
+        storage.addBook(new Book (4, "A Feast for Crows", "George R. R. Martin", 2005, 753, 753, "Harper Voyager "));
+        storage.addBook(new Book (5, "A Dance with Dragons", "George R. R. Martin", 2011, 1056, 1056, "Harper Voyager "));
+
+        Menu menu = new Menu();
+
+        try {
+
+            menu.menuMain();
+            System.out.println(storage.toString());
+
+        } catch (NullPointerException | EmptyArrayException e) {
+            System.out.println("Found an error!");
+        }
+
+//        System.out.println("Enter percent to increase or decrease the price");
+//        String str = sc.nextLine();
+//        char[] strArr = str.toCharArray();
+//        try {
+//            char sign = strArr[0];
+//            double percent = Double.parseDouble(String.valueOf(Arrays.copyOfRange(strArr, 1, strArr.length)));
+//            storage.ChangePrice(sign, percent);
+//            storage.viewAllElements();
+//
+//        }catch(NumberFormatException e){
+//            System.err.println("You should enter correct value <+ or -><number>");
+//        }
+//
+//        System.out.println("Enter author's name: ");
+//        String author = sc.nextLine();
+//        storage.findOutAuthor(author).viewAllElements();
+//
+//        System.out.println("Enter year: ");
+//        int year = sc.nextInt();
+//        storage.findOutYear(year).viewAllElements();
+
 
     }
-
-
 }

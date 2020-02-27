@@ -1,5 +1,6 @@
 package com.epam.hw6;
-import java.sql.SQLOutput;
+
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Main {
@@ -13,24 +14,27 @@ public class Main {
         storage.addBook(new Book (4, "A Feast for Crows", "George R. R. Martin", 2005, 753, 753, "Harper Voyager "));
         storage.addBook(new Book (5, "A Dance with Dragons", "George R. R. Martin", 2011, 1056, 1056, "Harper Voyager "));
 
-        System.out.println("Enter percent to increase the price");
-        int percent = sc.nextInt();
-        storage.changePriceUp(percent);
-        storage.viewAllElements();
+        System.out.println("Enter percent to increase or decrease the price");
+        String str = sc.nextLine();
+        char[] strArr = str.toCharArray();
+        try {
+            char sign = strArr[0];
+            double percent = Double.parseDouble(String.valueOf(Arrays.copyOfRange(strArr, 1, strArr.length)));
+            storage.ChangePrice(sign, percent);
+            storage.viewAllElements();
+
+        }catch(NumberFormatException e){
+            System.err.println("You should enter correct value <+ or -><number>");
+        }
+
         System.out.println("Enter author's name: ");
-        storage.findOutAuthor("George R. R. Martin").viewAllElements();
+        String author = sc.nextLine();
+        storage.findOutAuthor(author).viewAllElements();
 
+        System.out.println("Enter year: ");
+        int year = sc.nextInt();
+        storage.findOutYear(year).viewAllElements();
 
-
-//        books.priceUp();
-//        books.viewAllUnits();
-//        System.out.println("Enter percent to decrease the price");
-//        books.priceDown();
-//        books.viewAllUnits();
-//        System.out.println("Enter author's name: ");
-//        books.findOutAuthor().viewAllUnits();
-//        System.out.println("Enter year: ");
-//        books.findOutYear().viewAllUnits();
 
     }
 }

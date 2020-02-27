@@ -1,89 +1,101 @@
 package com.epam.hw8;
-
-import java.util.Scanner;
-
+import java.util.Arrays;
 public class Books {
-    private Book[] listOfBooks;
+    private Book[] storage;
     private int counter;
 
-    public Books(int length) {
+    public Books(int counter) {
+        this.counter = counter;
+        storage = new Book[counter];
+    }
+
+    public void length(int length) {
         if (length >= 0) {
-            listOfBooks = new Book[length];
+            storage = new Book[length];
         } else {
-            System.out.println("Negative length of array. ");
+            System.out.println("Negative length of the array");
         }
     }
 
-    public void viewAllUnits() {
-        for (Book unit : listOfBooks) {
-            if (unit != null) {
-                System.out.println(unit.toString());
+    public Book[] getStorage() {
+        return storage;
+    }
+
+    public int getCounter() {
+        return counter;
+    }
+
+    public void addBook(Book book) {
+            for (int count = 0; count < storage.length; count++) {
+                if (storage[count] == null) {
+                    storage[count] = book;
+                    break;
+                }
             }
-        }
     }
 
-    public void congestion(Book book) {
-        if (listOfBooks.length > counter) {
-            listOfBooks[counter] = book;
-            counter = counter + 1;
-        } else {
-            System.out.println("Full library ");
+    public void viewAllElements() throws EmptyArrayException{
+        if(Validator.EmptyShelf(storage)) {
+            throw new EmptyArrayException("Empty shelf!");
         }
-    }
-
-    public void priceDown() {
-        Scanner sc = new Scanner(System.in);
-        double percent = sc.nextDouble();
-        for (Book unit : listOfBooks) {
-            if (unit != null) {
-                unit.setPrice(unit.getPrice() - unit.getPrice() * percent / 100);
+        for (Book elem : storage) {
+            if (elem == null) {
+                break;
             }
+            elem.toString();
         }
     }
 
-    public void priceUp() {
-        Scanner sc = new Scanner(System.in);
-        double percent = sc.nextDouble();
-        for (Book unit : listOfBooks) {
-            if (unit != null) {
-                unit.setPrice(unit.getPrice() + unit.getPrice() * percent / 100);
-            }
-        }
-    }
-
-    public Books findOutYear() {
-        int counter = 0;
-        Books books = new Books(listOfBooks.length);
-        Scanner sc = new Scanner(System.in);
-        int year = sc.nextInt();
-        for (Book unit : listOfBooks) {
-            if (unit != null && unit.getYearOfPublication() >= year) {
-                books.congestion(unit);
-            }
-            if (unit == null) {
-                counter++;
-                if (counter == listOfBooks.length) {
-                    System.out.println("Emptiness");
+    public void ChangePrice(char negativePositiveValue, double percent) {
+        for (Book elem : storage) {
+            if (elem != null) {
+                double oldPrice = elem.getPrice();
+                switch (negativePositiveValue) {
+                    case '-':
+                        elem.setPrice(oldPrice - oldPrice * percent / 100);
+                        break;
+                    case '+':
+                        elem.setPrice(oldPrice + oldPrice * percent / 100);
+                        break;
                 }
             }
         }
-        return books;
     }
-    public Books findOutAuthor() {
-        Books books = new Books(listOfBooks.length);
-        Scanner sc = new Scanner(System.in);
-        String author = sc.nextLine();
-        for (Book unit : listOfBooks) {
-            if (unit != null && unit.getAuthor().equals(author)) {
-                books.congestion(unit);
-            }
-            if (unit == null) {
-                counter++;
-                if (counter == listOfBooks.length) {
-                    System.out.println("Emptiness");
-                }
+
+    public Books findOutAuthor(String author) {
+        Books authors = new Books(counter);
+        for (Book elem : storage) {
+            if (elem != null && elem.getAuthor().equals(author)) {
+                authors.addBook(elem);
             }
         }
-        return books;
+        return authors;
+    }
+
+    public Books findOutYear(int num) {
+        Books year = new Books(counter);
+        for (Book elem : storage) {
+            if (elem != null && elem.getYearOfPublication() > num) {
+                year.addBook(elem);
+            }
+        }
+        return year;
+    }
+    @Override
+    public Books clone () throws CloneNotSupportedException {
+        Books clone = (Books)super.clone();
+        clone.storage = Arrays.copyOf(storage, storage.length);
+        return clone;
+    }
+    public void getAuthorsNameCompared() {
+        Arrays.sort(storage, new CompareByName());
+    }
+    public void getPublishersNameCompared() {
+        Arrays.sort(storage, new CompareByPublishingHouse());
+    }
+    public void getPriceCompared() {
+        Arrays.sort(storage, new CompareByPrice());
     }
 }
+
+

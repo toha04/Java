@@ -1,6 +1,8 @@
 package com.epam.hw6;
 
-public class Book {
+import java.io.Serializable;
+
+public class Book implements Serializable, Cloneable{
     private int id;
     private String nameOfBook;
     private String author;
@@ -8,6 +10,8 @@ public class Book {
     private int yearOfPublication;
     private int numberOfPages;
     private double price;
+
+
 
     public Book(int id, String nameOfBook,
                 String author,
@@ -91,4 +95,5 @@ public class Book {
     public void setPrice(double price) {
         this.price = price;
     }
+
 }
